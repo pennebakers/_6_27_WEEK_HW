@@ -65,5 +65,16 @@ public class Main {
         System.out.println(accJohn.accountDetails());
         System.out.println(accSarah.accountDetails());
         System.out.println("-----------------------------------------------------------------");
+
+        //problem 4
+
+        Reverse rev = new Reverse();
+
+        System.out.println(rev.isExactReverse("ba", "a"));
+        System.out.println(rev.isExactReverse("desserts", "stressed"));
+        System.out.println(rev.isExactReverse("apple", "apple"));
+        System.out.println(rev.isExactReverse("regal", "lager"));
+        System.out.println(rev.isExactReverse("war", "raw"));
+        System.out.println(rev.isExactReverse("pal", "slap"));
     }
 }
