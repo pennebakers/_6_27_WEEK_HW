@@ -76,5 +76,15 @@ public class Main {
         System.out.println(rev.isExactReverse("regal", "lager"));
         System.out.println(rev.isExactReverse("war", "raw"));
         System.out.println(rev.isExactReverse("pal", "slap"));
+
+
+        //Problem 5
+
+        SeperateDuplicates sep = new SeperateDuplicates();
+
+        System.out.println(sep.SeperateDuplicateChars("Hello"));
+        System.out.println(sep.SeperateDuplicateChars("Bookkeeper"));
+        System.out.println(sep.SeperateDuplicateChars("Yellowwood door"));
+        System.out.println(sep.SeperateDuplicateChars("Chicago Cubs"));
     }
 }
